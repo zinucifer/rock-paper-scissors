@@ -2,11 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissores</title>
 </head>
 <body>
-    Rock Paper Scissores 
+    <div id="container">
+        <div class="start">
+            <img class="start-logo" src="/images/computer.png">
+            <div class="start-text">Click to Start</div>
+        </div>
+        <div class="game">
+            <div class="header">Rock Paper Scissors</div>
+            <div class="game-area">
+                <div class="playerSelection">
+                    <img class="hand-sign" src="/images/player.png">
+                    <div class="selectBtns">
+                        <button class="paper">Paper</button>
+                        <button class="rock">Rock</button>
+                        <button class="Scissors">Scissor</button>
+                    </div>
+                </div>
+                <div class="computerSelection">
+                    <img class="computer-sign" src="/images/waiting.gif">
+                    <div class="computer-side">Computer</div>
+                </div>
+            </div>
+            <div class="score-title">SCORE</div>
+            <div class="score">
+                🧑<div class="user-score">0</div>
+                💻<div class="computer-score">0</div>
+            </div>
+            <div class="reset">
+                
+            </div>
+        </div>
+    </div> 
 </body>
 </html>
