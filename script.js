@@ -88,11 +88,11 @@ function getComputerChoice(){
      randomChoice = Math.floor(Math.random()*choice.length);
      
      if(choice[randomChoice]=="Rock"){
-        computerSign.src="/images/rock.gif";
+        computerSign.src="images/rock.gif";
      }else if(choice[randomChoice]=="Paper"){
-        computerSign.src="/images/paper.gif";
+        computerSign.src="images/paper.gif";
      }else{
-        computerSign.src="/images/scissors.gif";
+        computerSign.src="images/scissors.gif";
      }
      
      
