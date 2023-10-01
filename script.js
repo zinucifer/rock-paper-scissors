@@ -68,7 +68,7 @@ let z1=0;
 //This function removes the computer sign after 2 Seconds
 function removeSign(){
     const computerSign = document.querySelector('.computer-sign');
-    computerSign.src="/images/waiting.gif";
+    computerSign.src="images/waiting.gif";
     const reset = document.querySelector('.reset');
     reset.textContent=result;
 }
